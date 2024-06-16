@@ -1,0 +1,66 @@
+.bg-image{
+	-fx-background-image: url("../images/rsz_420248.jpg");
+}
+.bg-instruction{
+	-fx-background-image: url("../images/bg-instruct.png");
+}
+.bg-level{
+	-fx-background-image: url("../images/bg-level.jpg");
+}
+.bg-easy{
+	-fx-background-image: url("../images/easybg.png");
+}
+.bg-medium{
+	-fx-background-image: url("../images/bgmedium.png");
+}
+.bg-score{
+	-fx-background-image: url("../images/score.png");
+}
+.button-game{
+	-fx-font-size: 16px;
+    -fx-font-weight: bold;
+     -fx-text-fill: #FFFFFF;
+     -fx-background-color: #003459;
+     -fx-background-radius: 57px;
+     -fx-alignment: center;
+     -fx-padding: 0 28px 0 28px;
+}
+.button-chooseLevel{
+	-fx-font-size: 16px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #FFFFFF;
+	-fx-border-radius: 57px;
+	-fx-background-color: #003459;
+	-fx-text-alignment: center;
+	-fx-border-width: 2px;
+	-fx-border-color:  #000000;
+	-fx-padding: 0 28px 0 28px;
+	
+}
+.button-back {
+    -fx-background-image: url("../images/button-back.png");
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center; 
+    -fx-background-color: transparent; 
+    -fx-padding: 0; 
+    -fx-background-radius: 0; 
+    -fx-border-radius: 0;
+}
+.button-back:hover{
+	-fx-cursor: pointer;
+}
+.button-help{
+	-fx-background-image: url("../images/btnhelp.png");
+    -fx-background-size: cover; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center; 
+    -fx-background-color: transparent; 
+    -fx-padding: 0; 
+    -fx-background-radius: 0; 
+    -fx-border-radius: 0;
+}
+.button-help:hover{
+	-fx-cursor: pointer;
+}
+

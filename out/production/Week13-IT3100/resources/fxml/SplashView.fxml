@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashViewController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="910.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/splash_background.png" />
+               </image>
+            </ImageView>
+            <ProgressBar fx:id="loadingBar" accessibleText="Loading" layoutX="271.0" layoutY="460.0" prefHeight="22.0" prefWidth="322.0" progress="0.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

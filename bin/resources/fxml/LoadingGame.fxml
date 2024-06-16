@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="../stylesheet/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoadingGameController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="bg-image" stylesheets="@../stylesheet/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="136.0" fitWidth="168.0" layoutX="60.0" layoutY="34.0" mouseTransparent="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pokemon-icon-png-0.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="142.0" layoutX="609.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/img1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="128.0" fitWidth="143.0" layoutX="248.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bg3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="74.0" fitWidth="276.0" layoutX="347.0" layoutY="72.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="buttonPlay" layoutX="405.0" layoutY="190.0" mnemonicParsing="false" onAction="#playScene" prefHeight="82.0" prefWidth="186.0" styleClass="button-game" stylesheets="@../stylesheet/style.css" text="CHƠI NGAY">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Button>
+            <Button fx:id="buttonLevel" layoutX="408.0" layoutY="310.0" mnemonicParsing="false" onAction="#chooseLevelScene" prefHeight="61.0" prefWidth="179.0" styleClass="button-chooseLevel" stylesheets="@../stylesheet/style.css" text="CHỌN MỨC ĐỘ: DỄ" />
+            <Button fx:id="buttonInstruct" layoutX="411.0" layoutY="408.0" mnemonicParsing="false" onAction="#instructScene" prefHeight="58.0" prefWidth="179.0" text="Instruction" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

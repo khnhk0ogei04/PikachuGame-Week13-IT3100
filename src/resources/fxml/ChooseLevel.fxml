@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ChooseLevelController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="bg-level" stylesheets="@../stylesheet/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="146.0" fitWidth="160.0" layoutX="697.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: transparent;">
+               <image>
+                  <Image url="@../images/pokemon-icon-png-9.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="backButton" layoutX="57.0" layoutY="52.0" mnemonicParsing="false" onAction="#backToPreviousScene" prefHeight="70.0" prefWidth="70.0" styleClass="button-back" stylesheets="@../stylesheet/style.css">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow />
+               </effect></Button>
+            <ImageView fx:id="levelEasy" fitHeight="148.0" fitWidth="160.0" layoutX="167.0" layoutY="208.0" onMouseClicked="#chooseEasyLevel" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/khanhsky.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="levelMedium" fitHeight="148.0" fitWidth="158.0" layoutX="382.0" layoutY="208.0" onMouseClicked="#chooseMediumLevel" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/TuyenMocBerlin.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="levelHard" fitHeight="152.0" fitWidth="148.0" layoutX="597.0" layoutY="206.0" onMouseClicked="#chooseHardLevel" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/DungTocDai.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
